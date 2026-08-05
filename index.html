@@ -18,8 +18,8 @@
 
             <div class="input-header">
                 <div class="botao-buscar">
-                    <button class="icone-busca">
-                        <img src="svg/busca.svg" alt="Buscar" width="40" height="40">
+                    <button class="icone-busca" aria-label="buscar">
+                        <img src="svg/busca.svg" alt="botao de busca" width="40" height="40">
                         <span>Buscar</span>
                     </button>
 
@@ -58,15 +58,16 @@
 
             <div class="topo-mobile">
 
-                <button class="menu-button-mobile"><img src="svg/menu_icon.svg" alt="menu" width="16px"
-                        height="18px"></button>
+                <button class="menu-button-mobile" aria-label="menu">
+                    <img src="svg/menu_icon.svg" alt="menu" width="16px"height="18px">
+                </button>
 
                 <div class="container-logo-a-tarde">
                     <img src="svg/atarde_logo.svg" alt="logo portal a tarde" width="134px" height="26px">
                 </div>
 
                 <div class="botao-buscar-mobile">
-                    <button class="icone-busca-mobile">
+                    <button class="icone-busca-mobile" aria-label="buscar">
                         <img src="svg/busca_icon.svg" alt="lupa" width="18" height="18">
                     </button>
                 </div>
@@ -93,7 +94,7 @@
         <div class="categorias">
             <div class="conteudo-categorias">
 
-                <button class="menu-button">
+                <button class="menu-button" aria-label="menu">
                     <img src="svg/menu_icon.svg" alt="menu" width="18px" height="18px">
                 </button>
 
@@ -121,7 +122,7 @@
     <aside class="menu-lateral">
         <header class="header-menu-lateral">
             <img src="svg/logo_portal_atarde.svg" alt="logo portal a tarde" width="184px" height="36px">
-            <button class="fechar-menu-lateral">
+            <button class="fechar-menu-lateral" aria-label="fechar menu">
                 <img src="svg/closeAzul.svg" alt="" width="14px" height="14px">
             </button>
         </header>
@@ -365,11 +366,11 @@
                     </div>
 
                     <div class="container-buttons-blogs">
-                        <button class="blogs-buttom-left">
+                        <button class="blogs-buttom-left" aria-label="voltar">
                             <img src="svg/seta.svg" alt="">
                         </button>
 
-                        <button class="blogs-buttom-right">
+                        <button class="blogs-buttom-right" aria-label="avancar">
                             <img src="svg/seta.svg" alt="">
                         </button>
                     </div>
@@ -434,12 +435,12 @@
 
                                         <h3>Em três anos, Brasil abriu 535 mercados. É a hora e a vez do marketing</h3>
                                     </a>
-                                </article>                               
+                                </article>
                             </li>
 
                             <li class="splide__slide">
 
-                                 <article class="card-blog">
+                                <article class="card-blog">
                                     <a href="#">
                                         <figure>
                                             <img src="https://cdn.atarde.com.br/img/category/130x130/category-1-84-5/scaleDownOutsideFillBackground-1.webp?fallback=https%3A%2F%2Fcdn.atarde.com.br%2Fimg%2Fcategory%2Fcategory-1-84-5.png%3Fxid%3D5&xid=5"
@@ -1177,11 +1178,11 @@
                         <h2>Mais lidas</h2>
 
                         <div class="container-buttons-mais-lidas">
-                            <button class="buttom-left-mais-lidas">
+                            <button class="buttom-left-mais-lidas" aria-label="voltar">
                                 <img src="svg/seta.svg" alt="">
                             </button>
 
-                            <button class="buttom-right-mais-lidas">
+                            <button class="buttom-right-mais-lidas" aria-label="avancar">
                                 <img src="svg/seta.svg" alt="">
                             </button>
                         </div>
@@ -1474,11 +1475,11 @@
                         <h2>Cineinsite</h2>
 
                         <div class="btn-cineinsite">
-                            <button class="btn-left-cineinsite">
+                            <button class="btn-left-cineinsite" aria-label="voltar">
                                 <img src="svg/seta.svg" alt="">
                             </button>
 
-                            <button class="btn-right-cineinsite">
+                            <button class="btn-right-cineinsite" aria-label="avancar">
                                 <img src="svg/seta.svg" alt="">
                             </button>
                         </div>
@@ -1769,9 +1770,9 @@
                         <h2>A Tarde Play</h2>
 
                         <div class="tags-atr-play">
-                            <button class="atr-play-active">GERAL</button>
-                            <button>MÚSICA</button>
-                            <button>FESTIVAIS</button>
+                            <button class="atr-play-active" aria-label="geral">GERAL</button>
+                            <button aria-label="musica">MÚSICA</button>
+                            <button aria-label="festivas">FESTIVAIS</button>
                         </div>
                     </header>
 
@@ -1839,7 +1840,7 @@
 
                     <div class="bottom-atr-play">
 
-                        <button class="btn-atr-left">
+                        <button class="btn-atr-left" aria-label="voltar"> 
                             <img src="svg/seta.svg" alt="">
                         </button>
 
@@ -1847,7 +1848,7 @@
                             Assista no <strong>YouTube</strong>
                         </a>
 
-                        <button class="btn-atr-right">
+                        <button class="btn-atr-right" aria-label="avancar">
                             <img src="svg/seta.svg" alt="">
                         </button>
 
@@ -2002,14 +2003,14 @@
 
                 <div class="container-clima">
                     <div class="buttons-clima">
-                        <button>Tempo</button>
-                        <button>Loterias</button>
-                        <button>Cotações</button>
+                        <button aria-label="tempo">Tempo</button>
+                        <button aria-label="loterias">Loterias</button>
+                        <button aria-label="cotacao">Cotações</button>
                     </div>
 
                     <div class="content-clima">
                         <div class="select-clima">
-                            <select name="select" id="">
+                            <select name="select" id="" aria-label="estado">
                                 <option value="salvador">Salvador</option>
                             </select>
 
@@ -2117,84 +2118,84 @@
                     <ul>
                         <li>
                             <figure>
-                                <img src="horóscopo/virgem.svg" alt="Virgem">
+                                <img src="horóscopo/virgem.svg" alt="signo de Virgem">
                             </figure>
                             <p>Virgem</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/aquario.svg" alt="Aquário">
+                                <img src="horóscopo/aquario.svg" alt="signo de Aquário">
                             </figure>
                             <p>Aquário</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/gemeos.svg" alt="Gêmeos">
+                                <img src="horóscopo/gemeos.svg" alt="signo de Gêmeos">
                             </figure>
                             <p>Gêmeos</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/capricornio.svg" alt="Capricórnio">
+                                <img src="horóscopo/capricornio.svg" alt="signo de Capricórnio">
                             </figure>
                             <p>Capricórnio</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/cancer.svg" alt="Câncer">
+                                <img src="horóscopo/cancer.svg" alt="signo de Câncer">
                             </figure>
                             <p>Câncer</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/aries.svg" alt="Áries">
+                                <img src="horóscopo/aries.svg" alt="signo de Áries">
                             </figure>
                             <p>Áries</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/touro.svg" alt="Touro">
+                                <img src="horóscopo/touro.svg" alt="signo de Touro">
                             </figure>
                             <p>Touro</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/escorpiao.svg" alt="Escorpião">
+                                <img src="horóscopo/escorpiao.svg" alt="signo de Escorpião">
                             </figure>
                             <p>Escorpião</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/libra.svg" alt="Libra">
+                                <img src="horóscopo/libra.svg" alt="signo de Libra">
                             </figure>
                             <p>Libra</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/sagitario.svg" alt="Sagitário">
+                                <img src="horóscopo/sagitario.svg" alt="signo de Sagitário">
                             </figure>
                             <p>Sagitário</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/peixes.svg" alt="Peixes">
+                                <img src="horóscopo/peixes.svg" alt="signo de Peixes">
                             </figure>
                             <p>Peixes</p>
                         </li>
 
                         <li>
                             <figure>
-                                <img src="horóscopo/leao.svg" alt="Leão">
+                                <img src="horóscopo/leao.svg" alt="signo de Leão">
                             </figure>
                             <p>Leão</p>
                         </li>
@@ -2323,11 +2324,11 @@
                         <h2>Fenagro</h2>
 
                         <div class="buttons-fenagro">
-                            <button class="btn-left-fenagro">
+                            <button class="btn-left-fenagro" aria-label="voltar">
                                 <img src="svg/seta.svg" alt="seta">
                             </button>
 
-                            <button class="btn-right-fenagro">
+                            <button class="btn-right-fenagro" aria-label="avancar">
                                 <img src="svg/seta.svg" alt="seta">
                             </button>
                         </div>
@@ -2441,7 +2442,7 @@
                                         </article>
                                     </li>
 
-                                     <li class="splide__slide">
+                                    <li class="splide__slide">
                                         <article class="article-fenagro">
                                             <a href="#">
                                                 <span>FENAGRO</span>
@@ -2476,7 +2477,7 @@
                                         </article>
                                     </li>
 
-                                     <li class="splide__slide">
+                                    <li class="splide__slide">
                                         <article class="article-fenagro">
                                             <a href="#">
                                                 <span>FENAGRO</span>
@@ -2732,14 +2733,14 @@
 
                 </div>
                 <div class="buttons-web-storie">
-                    <button class="btn-left-web">
+                    <button class="btn-left-web" aria-label="voltar">
                         <img src="svg/seta.svg" alt="seta-left">
                     </button>
 
                     <a href="#">+ em <strong>Web Stories</strong></a>
 
                     <button class="btn-right-web">
-                        <img src="svg/seta.svg" alt="seta-right">
+                        <img src="svg/seta.svg" alt="seta-right" aria-label="avancar">
                     </button>
                 </div>
 
@@ -2943,7 +2944,7 @@
 
                 <div class="desenvolvedores">
                     <img src="svg/designed by golab.svg" alt="" width="116px" height="24px">
-                    <a href="https://mundiware.com/#atarde">
+                    <a href="https://mundiware.com/#atarde" aria-label="mundiware">
                         <img src="svg/developed by mundiware.svg" alt="" width="114px" height="24px">
                     </a>
                 </div>
