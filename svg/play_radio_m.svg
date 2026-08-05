@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="play_radio_m" transform="translate(-522 -872)">
+    <circle id="elipse" cx="18" cy="18" r="18" transform="translate(522 872)" fill="#009640"/>
+    <path id="play" d="M5.639,1.457a1,1,0,0,1,1.722,0l4.748,8.034A1,1,0,0,1,11.248,11h-9.5A1,1,0,0,1,.892,9.491Z" transform="matrix(0.017, 1, -1, 0.017, 546.998, 883.405)" fill="#fff"/>
+  </g>
+</svg>
