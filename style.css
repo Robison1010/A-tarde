@@ -3131,40 +3131,26 @@ footer {
         display: none;
     }
 
-
-
     .topo-header-mobile {
-        width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 20px 20px 0 20px;
+        width: 100%;
+        padding: 20px 20px 0;
         gap: 10px;
         z-index: 9999;
     }
 
     .botoes-topo-header {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         font-size: 12px;
         gap: 12px;
     }
 
     .botao-clube-a-tarde a {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        text-decoration: none;
-        font-weight: 300;
         font-size: 12px;
     }
 
-
     .topo-mobile {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -3178,21 +3164,17 @@ footer {
 
     .icone-busca-mobile {
         border: none;
-        background-color: transparent;
+        background: transparent;
     }
-
 
     .topo-header-mobile.active .input-mobile-wrapper {
         max-height: 50px;
         opacity: 1;
     }
 
-
     .topo-header-mobile.active .botoes-topo-header {
         display: none;
     }
-
-
 
     .input-mobile-wrapper {
         max-height: 0;
@@ -3204,22 +3186,16 @@ footer {
     .input-mobile-wrapper input {
         width: 100%;
         height: 40px;
-        border-radius: 20px;
         border: 1px solid #0373BE;
+        border-radius: 20px;
         color: #0373BE;
         padding: 0 16px;
         outline: none;
     }
 
-
-
-
     .container-logo-a-tarde {
         margin-right: 0;
     }
-
-
-
 
     .botao-clube-a-tarde {
         width: 142px;
@@ -3231,11 +3207,6 @@ footer {
         width: 154px;
         height: 32px;
         font-size: 12px;
-    }
-
-    .botao-assine a {
-        color: white;
-        text-decoration: none;
     }
 
     .conteudo-categorias {
@@ -3258,49 +3229,30 @@ footer {
 
     /*main*/
 
-
     .adv-top {
-        margin-top: 140px;
-        background-color: #F8F8F8;
         min-height: 120px;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
-
     .adv-top-content {
-        background-color: #D2D2D2;
-        width: 100%;
-        max-width: 970px;
         height: 100px;
     }
 
-
     .left-bloco-1,
     .right-bloco-1 {
-        grid-column: 1/-1;
-        grid-row: span 7;
+        grid-column: 1 / -1;
     }
 
     .img-left-bloco-1 {
-        width: 100%;
-        object-fit: cover;
-        height: 100%;
+        max-width: none;
         max-height: 211px;
         object-position: center;
-        max-width: none;
     }
 
     .article-bloco-1 {
-        grid-column: 1/-1;
-        grid-row: span 7;
-        text-align: center;
+        grid-column: 1 / -1;
     }
 
     .article-bloco-1 span {
-        display: block;
         margin-bottom: 10px;
         font-size: 10px;
     }
@@ -3309,53 +3261,29 @@ footer {
         font-size: 24px;
         letter-spacing: -0.24px;
         line-height: 30px;
-        font-weight: bold;
-        font-family: "Merriweather", serif;
         margin-bottom: 6px;
-        color: #1C1C1C;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .article-bloco-1 p {
         font-size: 14px;
         line-height: 18px;
-        font-weight: 400;
         margin-bottom: 20px;
-        font-family: "Work Sans", sans-serif;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        /* letter-spacing: 0px; */
-        padding: 0 10px;
     }
 
     .figure-bloco-1 {
-        position: relative;
-        width: 100%;
-        height: 100%;
         max-height: 230px;
     }
 
     .img-bloco-1 {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
         max-height: 230px;
     }
 
     .right-bloco-1 h2 {
         font-size: 28px;
-        font-weight: bold;
         letter-spacing: -0.28px;
-        font-family: "Merriweather", serif;
     }
 
-
-    /*Ouça rádio - mobile*/
+    /* Ouça rádio - mobile */
 
     .top-radio-mobile>span {
         font-family: "Work Sans", sans-serif;
@@ -3368,7 +3296,6 @@ footer {
 
     .onda-sonora {
         display: flex;
-        flex-direction: row;
         align-items: center;
         gap: 5px;
     }
@@ -3376,24 +3303,20 @@ footer {
     .onda-grande {
         height: 19px;
         border-left: solid 2px white;
-
     }
 
     .onda-media {
         height: 12px;
         border-left: solid 2px white;
-
     }
 
     .onda-pequena {
         height: 7px;
         border-left: solid 2px white;
-
     }
 
     .top-radio-mobile>div {
         display: flex;
-        flex-direction: row;
         align-items: center;
         gap: 12px;
     }
@@ -3410,13 +3333,12 @@ footer {
 
     .ouca-radio-mobile {
         display: flex;
-        grid-column: 1/-1;
-        height: 100px;
+        grid-column: 1 / -1;
         width: 100%;
+        height: 100px;
         background: transparent linear-gradient(180deg, #016537 0%, #01331C 100%) 0% 0% no-repeat padding-box;
         border-radius: 20px;
         padding: 12px 20px 12px 14px;
-        flex-direction: row;
         align-items: center;
         justify-content: space-between;
         gap: 24px;
@@ -3426,16 +3348,13 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100%;
         width: 100%;
+        height: 100%;
     }
 
-    /*Ultimas - bloco 1*/
+    /* Últimas */
 
     .content-ultimas {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
         padding-top: 0;
         border-top: none;
         margin-top: 18px;
@@ -3444,7 +3363,6 @@ footer {
     .img-art-ultimas {
         width: 80px;
         height: 80px;
-        object-fit: cover;
         object-position: center;
     }
 
@@ -3458,81 +3376,53 @@ footer {
     /*Blogs e colunas*/
 
     .content-blogs {
-        grid-column: 1/-1;
-        grid-row: span 5;
+        grid-column: 1 / -1;
     }
 
     .section-blogs-aside {
-        grid-column: 1/-1;
-        grid-row: span 5;
-        text-align: center;
-        padding: 24px 11px 12px 11px;
-        border: solid 1px #E3E3E3;
+        grid-column: 1 / -1;
+        padding: 18px 35px 35px;
     }
 
     .header-blogs {
         position: relative;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 19px;
     }
 
     .container-buttons-blogs {
         position: absolute;
         top: 250px;
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
         width: calc(100% + 20px);
-        z-index: 10;
         transform: translateX(-10px);
-    }
-
-
-    .card-blog {
-        width: 154px;
-        /* min-height: 224px; */
-        border: 1px solid #E3E3E3;
-    }
-
-
-    .splide-blogs .splide__slide {
-        margin-right: 24px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 12px;
+        z-index: 10;
     }
 
     .container-buttons-blogs button {
         width: 38px;
         height: 38px;
-        background-color: #1C1C1C;
-        border: none;
-        cursor: pointer;
     }
 
+    .card-blog {
+        width: 154px;
+    }
 
-
+    .splide-blogs .splide__slide {
+        gap: 12px;
+    }
 
     .title-blogs h2 {
         font-size: 28px;
-        font-weight: bold;
-        letter-spacing: -.28px;
+        letter-spacing: -0.28px;
         line-height: 18px;
-        font-family: "Merriweather", serif;
     }
 
     .card-autores>li>a>figure>img {
         width: 90px;
-        /* max-width: 90px; */
         height: 90px;
+        margin: 14px 0;
+        border: 1px solid #0373BE;
         border-radius: 50%;
-        border: solid 1px #0373BE;
-        margin-bottom: 14px;
-        margin-top: 14px;
     }
 
     .section-blogs-aside h2 {
@@ -3543,45 +3433,25 @@ footer {
         margin-bottom: 22px;
     }
 
-    .section-blogs-aside {
-        grid-column: 1/-1;
-        grid-row: span 5;
-        text-align: center;
-        padding: 18px 35px 35px 35px;
-        border: solid 1px #E3E3E3;
-    }
-
     /*Section esportes*/
 
     .colum-section-esportes {
-        grid-column: 1/-1;
-        grid-row: span 3;
+        grid-column: 1 / -1;
     }
 
     .colum-section-esportes h2 {
         font-size: 28px;
-        font-weight: bold;
         letter-spacing: -0.28px;
-        line-height: 28px;
-        /* font-family: "Merriweather", serif; */
-        /* padding-bottom: 18px; */
-        margin-bottom: 24px;
-        /* border-bottom: solid 1px #E3E3E3; */
     }
 
     .colum-section-esportes span {
-        display: block;
         margin-bottom: 10px;
         font-size: 10px;
         letter-spacing: 0.1px;
         line-height: 15px;
-        color: #108144;
-        text-transform: uppercase;
-        font-family: "Work Sans", sans-serif;
     }
 
     .colum-section-esportes>article>a>figure>img {
-        width: 100%;
         max-height: 211px;
         object-fit: cover;
         object-position: top;
@@ -3594,75 +3464,42 @@ footer {
     .colum-section-esportes>article>a>div>h3 {
         font-size: 18px;
         line-height: 24px;
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        margin-top: 12px;
         min-height: 71px;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
-
-    /*Section A tarde Destaque*/
+    /* Section A Tarde Destaque */
 
     .section-atr-destaque {
         display: none;
     }
 
     .section-atr-destaque-mobile {
-        /* max-width: 1200px; */
         display: block;
-        grid-column: 1/-1;
+        grid-column: 1 / -1;
         padding: 28px 25px 25px;
-        /*margin: 24px auto;*/
+        margin-top: 24px;
         border-bottom: solid 1px #E3E3E3;
         background-image: url(imagens/bg_atr_destaques_d.png);
         background-position: center;
-        background-repeat: no-repeat;
         box-sizing: border-box;
     }
 
     .section-atr-destaque-mobile h2 {
-        color: white;
-        font-family: "Merriweather", serif;
         font-size: 28px;
         letter-spacing: -0.28px;
-        line-height: 28px;
-        text-align: left;
-        margin-bottom: 24px;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
     }
-
 
     .section-atr-destaque-mobile span {
         font-size: 10px;
-        color: white;
-        font-family: "Work Sans", sans-serif;
         letter-spacing: 0.1px;
         line-height: 15px;
-        text-transform: uppercase;
-        text-align: left;
-        font-weight: 400;
     }
 
     .section-atr-destaque-mobile h3 {
-        color: white;
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        text-align: left;
         min-height: 71px;
-        margin-bottom: 16px;
-        font-weight: 300;
-        margin-top: 12px;
-        display: -webkit-box;
         -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .splide__list-art {
@@ -3670,33 +3507,19 @@ footer {
         padding: 0 !important;
     }
 
-
     .splide__slide-art {
         width: 230px;
         flex-shrink: 0;
     }
 
-
     .colum-atr-destaque-mobile {
         width: 230px;
     }
 
-
-    .colum-atr-destaque-mobile a {
-        display: block;
-        width: 100%;
-    }
-
-    .colum-atr-destaque-mobile figure {
-        width: 100%;
-    }
-
+    .colum-atr-destaque-mobile a,
+    .colum-atr-destaque-mobile figure,
     .colum-atr-destaque-mobile img {
         width: 100%;
-    }
-
-    .section-atr-destaque-mobile {
-        margin-top: 24px;
     }
 
     .section-atr-destaque-mobile,
@@ -3705,107 +3528,62 @@ footer {
         min-width: 0;
     }
 
-
-    /*Section política*/
+    /* Section Política */
 
     .colum-politica {
-        grid-column: 1/-1;
-        grid-row: span 5;
+        grid-column: 1 / -1;
     }
 
     .colum-politica h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
         letter-spacing: -0.28px;
-        line-height: 28px;
-        text-align: left;
-        font-weight: bold;
         color: #1C1C1C;
     }
-
-
 
     .header-section-politica {
         padding-bottom: 0;
         border-bottom: none;
-        margin-bottom: 24px;
     }
 
     .colum-politica span {
-        display: block;
         font-size: 10px;
-        font-family: "Work Sans", sans-serif;
         letter-spacing: 0;
         line-height: 15px;
-        text-align: left;
-        font-weight: 400;
-        margin-bottom: 12px;
-        text-transform: uppercase;
     }
 
     .colum-politica>article>a>figure>img {
-        width: 100%;
         max-width: none;
         max-height: 211px;
         object-fit: cover;
     }
 
     .content-colum-politica {
-        display: flex;
-        flex-direction: column;
         gap: 18px;
         margin-top: 18px;
     }
 
     .colum-politica>div>article>a>h3 {
-        font-family: "Work Sans", sans-serif;
         font-size: 14px;
         line-height: 18px;
-        text-align: left;
-        font-weight: 500;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
         color: #1C1C1C;
     }
 
-
-
     .colum-politica>article>a>h3 {
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        text-align: left;
-        font-weight: 400;
-        margin-bottom: 16px;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
-
 
     /*Section Eleições*/
 
     .section-eleicoes h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
-        line-height: 28px;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
     }
 
     .splide-eleicoes .splide__slide {
         width: 230px;
-        flex-shrink: 0;
     }
 
-
-
-
-    /*Section mais lidas*/
+    /* Section Mais Lidas */
 
     .section-mais-lidas {
         display: none;
@@ -3813,18 +3591,14 @@ footer {
 
     .section-mais-lidas-mobile {
         display: block;
-        grid-column: 1/-1;
+        grid-column: 1 / -1;
         grid-row: 3;
         margin: 0 auto;
-        /*margin-bottom: 24px;
-        padding-bottom: 24px;
-        border-bottom: solid 1px #E3E3E3;
-        margin-bottom: 24px;*/
     }
 
     .container-mais-lidas-mobile {
         background-color: #F0F8FD;
-        padding: 28px 25px 25px 25px;
+        padding: 28px 25px 25px;
     }
 
     .content-mais-lidas-mobile {
@@ -3836,20 +3610,13 @@ footer {
     }
 
     .header-mais-lidas-mobile {
-        margin-bottom: 24px;
         display: flex;
-        flex-flow: row;
         justify-content: space-between;
+        margin-bottom: 24px;
     }
 
     .header-mais-lidas-mobile>h2::before {
-        content: "";
-        position: absolute;
         top: 40%;
-        left: 0;
-        transform: translateY(-50%);
-        width: 14px;
-        height: 14px;
         background-color: #0F45AC;
     }
 
@@ -3867,64 +3634,39 @@ footer {
     }
 
     .section-mais-lidas-mobile>div>header>h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
         letter-spacing: -0.28px;
-        line-height: 28px;
-        text-align: left;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
     }
 
     .section-mais-lidas-mobile h3 {
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        text-align: left;
-        margin-bottom: 16px;
-        font-weight: 400;
         margin-top: 10px;
         min-height: 71px;
-        display: -webkit-box;
         -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .colum-mais-lidas-mobile {
         width: 100%;
-        /*max-width: 230px;*/
-        /* min-width: 80px; */
     }
-
 
     .colum-mais-lidas-mobile>a>figure {
         width: 100%;
-        /*max-width: 210px;*/
-
     }
 
     .colum-mais-lidas-mobile>a>figure>img {
         width: 100%;
-        /*max-width: 230px;*/
         height: 100%;
         object-fit: cover;
         min-height: 80px;
     }
 
     .colum-mais-lidas-mobile span {
-        display: block;
         font-size: 10px;
-        font-family: "Work Sans", sans-serif;
-        letter-spacing: 0.1px;
+        letter-spacing: .1px;
         line-height: 15px;
-        text-align: left;
-        font-weight: 400;
         margin-bottom: 10px;
-        text-transform: uppercase;
     }
-
 
     .splide-mais-lidas-mobile .splide__track {
         overflow: hidden;
@@ -3934,123 +3676,71 @@ footer {
         align-items: stretch;
     }
 
-    /*.splide-mais-lidas-mobile .splide__slide {
-        width: 230px !important;
-    }*/
-
-
     .splide-mais-lidas-mobile .splide__slide {
         width: 230px;
-        flex-shrink: 0;
     }
 
     .section-mais-lidas-mobile,
     .container-mais-lidas-mobile,
     .splide-mais-lidas-mobile {
-        min-width: 0;
         width: 100%;
+        min-width: 0;
         margin-top: -14px;
     }
 
+    /* Section Salvador */
 
-
-
-    /*Section Salvador*/
-
-    .colum-salvador {
-        grid-column: 1/-1;
-        grid-row: span 7;
-    }
-
+    .colum-salvador,
     .colum-economia,
     .colum-autos {
-        grid-column: 1/-1;
-        grid-row: span 7;
+        grid-column: 1 / -1;
     }
-
-    .colum-economia,
-    .colum-autos {
-        grid-column: 1/-1;
-        grid-row: span 7;
-    }
-
 
     .header-salvador h2,
     .header-economia h2,
     .header-autos h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
-        line-height: 28px;
         letter-spacing: -0.28px;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
         padding-bottom: 0;
         border-bottom: none;
-        margin-bottom: 24px;
     }
 
     .article-salvador>a>h3 {
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        font-weight: 400;
-        display: -webkit-box;
         min-height: 71px;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        margin-bottom: 16px;
     }
 
     .img-article-salvador {
-        max-width: 588px;
-        max-height: 211px;
-        object-fit: cover;
-        object-position: center;
         width: 100%;
+        max-height: 211px;
+        max-width: 588px;
         min-height: 0;
     }
 
     .artigos-salvador>article>a>figure,
     .artigos-colum-economia>article>a>figure,
     .artigos-colum-autos>article>a>figure {
-        width: 100px;
-        min-width: 100px;
-        height: 100px;
-        overflow: hidden;
         display: none;
     }
 
     .artigos-salvador {
-        display: flex;
-        gap: 18px;
         flex-direction: column;
+        gap: 18px;
         margin-top: 18px;
     }
 
     .texto-artigos-salvador>h3,
     .texto-artigos-economia>h3,
     .texto-artigos-autos>h3 {
-        font-family: "Work Sans", sans-serif;
-        font-size: 14px;
-        line-height: 18px;
-        text-align: left;
-        font-weight: 500;
-        display: -webkit-box;
         min-height: 0;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .article-colum-economia>a>img,
     .article-colum-autos>a>img {
+        width: 100%;
         max-width: none;
         max-height: 211px;
-        object-fit: cover;
-        object-position: center;
-        width: 100%;
     }
 
     .article-colum-economia,
@@ -4058,136 +3748,74 @@ footer {
         margin-bottom: 18px;
     }
 
-
-
-
-
-    /*Section Cineinside*/
+    /* Section Cineinsite */
 
     .section-cineinsite {
         width: auto;
         margin: 0 -20px;
     }
 
+    .header-cineinsite>h2 {
+        font-size: 28px;
+        letter-spacing: -0.28px;
+    }
+
     .text-article-cineinsite>h3 {
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        text-align: left;
-        /* margin-bottom: 16px; */
-        font-weight: 400;
-        margin-top: 12px;
-        min-height: 71px;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
         margin-top: 14px;
+        min-height: 71px;
+        -webkit-line-clamp: 3;
     }
 
     .img-cineinsite {
-        height: 100%;
         max-width: 230px;
-        /* width: 100%; */
-        object-fit: cover;
         min-height: 408px;
     }
 
-    .article-cineinsite {
-        width: 230px;
-    }
-
+    .article-cineinsite,
     .splide-cineinsite .splide__slide {
         width: 230px;
-        flex-shrink: 0;
     }
-
-    .header-cineinsite>h2 {
-        font-family: "Merriweather", serif;
-        font-size: 28px;
-        line-height: 28px;
-        letter-spacing: -0.28px;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
-        /* padding-bottom: 18px; */
-        /* border-bottom: solid 1px; */
-    }
-
 
     /*Section Atr play*/
 
-
     .section-atr-play {
-        grid-column: 1/-1;
-        grid-row: span 5;
-        background-color: #000000;
-        padding: 20px 25px 25px 25px;
         margin: 0 -20px;
     }
 
-    .header-atr-play>h2 {
-        font-size: 28px;
-        font-weight: bold;
-        letter-spacing: -0.28px;
-        line-height: 28px;
-        font-family: Merriweather, serif;
-        position: relative;
-        padding-left: 24px;
-        color: white;
-    }
-
-    .tags-atr-play {
-        display: none;
-        /* gap: 14px; */
-    }
-
     .header-atr-play {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        align-items: center;
         margin-bottom: 22px;
         height: 36px;
     }
 
+    .header-atr-play>h2 {
+        font-size: 28px;
+        letter-spacing: -0.28px;
+    }
+
+    .tags-atr-play {
+        display: none;
+    }
+
     .splide-atr-play img {
-        width: 100%;
         height: 124px;
-        object-fit: cover;
-        object-position: center;
-        display: block;
     }
 
+    .splide-atr-play .splide__slide,
     .splide-atr-play .splide__slide>a {
-        display: block;
         width: 218px;
-    }
-
-    .splide-atr-play .splide__slide {
-        width: 218px;
-        flex-shrink: 0;
     }
 
     .splide-atr-play h3 {
         font-size: 12px;
         line-height: 18px;
         letter-spacing: -0.12px;
-        font-family: "Work Sans", sans-serif;
         font-weight: 300;
-        color: #FFF;
         margin-top: 12px;
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .bottom-atr-play {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         margin-top: 42px;
     }
 
@@ -4195,90 +3823,55 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 12px;
-        line-height: 14px;
-        font-family: "Work Sans", sans-serif;
-        font-weight: 400;
-        letter-spacing: 0.12px;
-        padding: 0;
-        background-color: #0373BE;
-        color: white;
         width: 100%;
         max-width: 236px;
+        padding: 0;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.12px;
     }
 
     .bottom-atr-play>button {
         width: 32px;
-        background-color: #0373BE;
         height: 32px;
-        border: none;
-        cursor: pointer;
     }
 
-
-
-    /*Section Municípios*/
+    /* Section Municípios */
 
     .section-municipios h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
-        line-height: 28px;
         letter-spacing: -0.28px;
-        font-weight: bold;
-        position: relative;
-        padding-left: 24px;
     }
 
     .colum-municipios span {
-        display: block;
         font-size: 10px;
-        font-family: "Work Sans", sans-serif;
         letter-spacing: .1px;
         line-height: 15px;
         margin-bottom: 10px;
-        text-transform: uppercase;
     }
 
     .colum-municipios h3 {
-        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
-        font-weight: 400;
-        margin-bottom: 16px;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
         min-height: 71px;
     }
 
     .splide-municipios .splide__slide {
         width: 230px;
-        flex-shrink: 0;
     }
 
     .colum-municipios img {
-        width: 100%;
         min-height: 152px;
         object-fit: cover;
-        display: block;
     }
 
+    /* Clima */
 
-
-    /*Colum Clima*/
     .buttons-clima {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        gap: 16px;
         margin-bottom: 36px;
     }
 
     .info-clima>img {
-        margin-bottom: 6px;
-        width: 100%;
-        height: 100%;
         max-width: 56px;
         max-height: 56px;
     }
@@ -4286,39 +3879,25 @@ footer {
     .info-clima>div>p {
         font-size: 40px;
         letter-spacing: -2.4px;
-        font-weight: bold;
         line-height: 18px;
-        color: #0E5788;
-        font-family: "Work Sans", sans-serif;
         min-height: 25px;
-        margin-bottom: 6px;
     }
 
     .info-clima>div>div>b {
-        font-family: "Work Sans", sans-serif;
         font-size: 12px;
-        line-height: 18px;
-        font-weight: bold;
-        color: #1C1C1C;
     }
 
     .content-clima-semanal {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
         gap: 23px 13px;
     }
 
     .content-clima {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         gap: 33px;
     }
 
     .container-clima {
-        border: solid 1px #E3E3E3;
         padding: 18px 36px 28px 35px;
     }
 
@@ -4326,114 +3905,54 @@ footer {
         display: none;
     }
 
-    .content-horoscopo>h3,
-    .content-horoscopo>h3>span {
-        font-family: "Merriweather", serif;
-        font-size: 20px;
-        letter-spacing: -0.2px;
-        color: #1C1C1C;
-        line-height: 26px;
-        margin-bottom: 16px;
-        text-align: center;
-        font-weight: bold;
-        margin-bottom: 0;
+    /* Horóscopo */
+
+    .content-horoscopo {
+        padding: 22px 19px 24px;
     }
 
+    .content-horoscopo>h3,
     .content-horoscopo>h3>span {
-    color: #0373BE;
-}
+        font-size: 20px;
+        letter-spacing: -0.2px;
+        margin-bottom: 0;
+        text-transform: none;
+    }
 
     .content-horoscopo>span {
         text-transform: none;
     }
 
-    .content-horoscopo {
-        border: solid 1px #E3E3E3;
-        padding: 22px 19px 24px 19px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .content-horoscopo>ul {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px 14px;
-        margin-bottom: 24px;
-    }
-
-
-
-    .content-horoscopo>h3,
-    .content-horoscopo>h3>span {
-        font-family: "Merriweather", serif;
-        font-size: 20px;
-        letter-spacing: -0.2px;
-        color: #1C1C1C;
-        line-height: 26px;
-        margin-bottom: 16px;
-        text-align: center;
-        font-weight: bold;
-        text-transform: none;
-    }
-
-    .content-horoscopo>ul>li>figure {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60px;
-        height: 60px;
-        background-color: #F0F8FD;
-    }
-
-    .content-horoscopo>ul {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 20px 14px;
         margin-bottom: 30px;
     }
 
-    .content-horoscopo {
-        border: solid 1px #E3E3E3;
-        padding: 22px 19px 24px 19px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .content-horoscopo>ul>li>figure {
+        width: 60px;
+        height: 60px;
     }
 
     .content-horoscopo>ul>li>p {
         font-size: 10px;
-        font-family: "Work Sans", sans-serif;
-        line-height: 24px;
-        letter-spacing: -0.12px;
-        /* margin-top: 8px; */
-        font-weight: 400;
-        color: #1C1C1C;
     }
 
 
     /*Section Fenagro*/
 
     .section-fenagro {
-        grid-column: 1 / -1;
-        background-color: #F2F9F5;
-        padding: 25px;
-        padding-bottom: 30px;
         margin: 0 -20px;
     }
 
     .container-fenagro {
-        display: flex;
-        flex-direction: column;
         gap: 22px;
     }
 
     /* Layout */
 
     .content-fenagro {
-        display: flex;
         flex-direction: column;
         gap: 32px;
     }
@@ -4445,83 +3964,49 @@ footer {
     }
 
     .header-fenagro h2 {
-        font-family: "Merriweather", serif;
         font-size: 28px;
-        line-height: 28px;
         letter-spacing: -0.28px;
-        font-weight: bold;
-        padding-left: 24px;
-        position: relative;
     }
 
     /* Slider */
 
     .splide-fenagro {
         width: 100%;
-        min-width: 0;
     }
 
     .splide-fenagro .splide__slide {
         width: 230px;
-        flex-shrink: 0;
     }
 
     /* Card */
 
     .article-fenagro span {
-        display: block;
         margin-bottom: 10px;
         font-size: 10px;
         line-height: 15px;
         letter-spacing: .1px;
-        color: #108144;
-        text-transform: uppercase;
-        font-family: "Work Sans", sans-serif;
     }
 
     .article-fenagro h3 {
         font-size: 18px;
         line-height: 24px;
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-        margin-bottom: 16px;
-
-        display: -webkit-box;
         -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     .article-fenagro img {
-        width: 100%;
         height: 152px;
-        object-fit: cover;
     }
 
     /* Destaque */
 
     .article-fenagro-destaque {
         width: 100%;
-        flex-shrink: 0;
-    }
-
-    .article-fenagro-destaque img {
-        width: 100%;
-        display: block;
-        object-fit: cover;
     }
 
     .article-fenagro-destaque h3 {
         margin-top: 13px;
         font-size: 16px;
         line-height: 22px;
-        font-family: "Merriweather", serif;
-        font-weight: 400;
-
-        display: -webkit-box;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
     }
 
     /* Paginação */
@@ -4530,11 +4015,10 @@ footer {
         display: none;
     }
 
-    /*Section card do dia*/
+    /* Section capa do dia */
 
     .section-capa-do-dia {
-        grid-column: 1/-1;
-        grid-row: span 5;
+        grid-column: 1 / -1;
     }
 
     .header-capa-do-dia>h2,
