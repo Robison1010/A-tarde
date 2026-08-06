@@ -136,18 +136,18 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     background-color: #009640;
     border: none;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
     width: 156px;
     letter-spacing: 0.4px;
     height: 36px;
     border-radius: 18px;
     cursor: pointer;
-    padding: 0 14px 0 5px;
+    padding: 0 10px 0 5px;
 }
 
 .container-ouca-rapido a {
@@ -1823,7 +1823,7 @@ a:hover {
 
 
 .entretenimento span {
-    color: #FF951C;
+    color: #9c590c;
 }
 
 
