@@ -3485,21 +3485,43 @@ footer {
     }
 
     .section-atr-destaque-mobile h2 {
+        color: white;
+        font-family: "Merriweather", serif;
         font-size: 28px;
         letter-spacing: -0.28px;
+        line-height: 28px;
+        text-align: left;
+        margin-bottom: 24px;
+        font-weight: bold;
+        position: relative;
+        padding-left: 24px;
     }
 
     .section-atr-destaque-mobile span {
         font-size: 10px;
+        color: white;
+        font-family: "Work Sans", sans-serif;
         letter-spacing: 0.1px;
         line-height: 15px;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: 400;
     }
 
     .section-atr-destaque-mobile h3 {
+        color: white;
+        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
+        text-align: left;
         min-height: 71px;
+        margin-bottom: 16px;
+        font-weight: 300;
+        margin-top: 12px;
+        display: -webkit-box;
         -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .splide__list-art {
@@ -3616,7 +3638,13 @@ footer {
     }
 
     .header-mais-lidas-mobile>h2::before {
+        content: "";
+        position: absolute;
         top: 40%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 14px;
+        height: 14px;
         background-color: #0F45AC;
     }
 
@@ -3634,16 +3662,29 @@ footer {
     }
 
     .section-mais-lidas-mobile>div>header>h2 {
+        font-family: "Merriweather", serif;
         font-size: 28px;
         letter-spacing: -0.28px;
+        line-height: 28px;
+        text-align: left;
+        font-weight: bold;
+        position: relative;
+        padding-left: 24px;
     }
 
     .section-mais-lidas-mobile h3 {
+        font-family: "Merriweather", serif;
         font-size: 18px;
         line-height: 24px;
+        text-align: left;
+        margin-bottom: 16px;
+        font-weight: 400;
         margin-top: 10px;
         min-height: 71px;
+        display: -webkit-box;
         -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 
     .colum-mais-lidas-mobile {
@@ -3662,10 +3703,15 @@ footer {
     }
 
     .colum-mais-lidas-mobile span {
+        display: block;
         font-size: 10px;
-        letter-spacing: .1px;
+        font-family: "Work Sans", sans-serif;
+        letter-spacing: 0.1px;
         line-height: 15px;
+        text-align: left;
+        font-weight: 400;
         margin-bottom: 10px;
+        text-transform: uppercase;
     }
 
     .splide-mais-lidas-mobile .splide__track {
