@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="instagram" transform="translate(-4.75 -4.25)">
+    <path id="Caminho_3317" data-name="Caminho 3317" d="M10.266,4.25h6.968A5.522,5.522,0,0,1,22.75,9.766v6.968a5.522,5.522,0,0,1-5.516,5.516H10.266A5.522,5.522,0,0,1,4.75,16.734V9.766A5.522,5.522,0,0,1,10.266,4.25Zm6.968,16.258a3.778,3.778,0,0,0,3.774-3.774V9.766a3.778,3.778,0,0,0-3.774-3.774H10.266A3.778,3.778,0,0,0,6.492,9.766v6.968a3.778,3.778,0,0,0,3.774,3.774Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Caminho_3318" data-name="Caminho 3318" d="M13.053,16.856A4.3,4.3,0,1,1,16.1,15.6,4.308,4.308,0,0,1,13.053,16.856Zm0-6.885a2.582,2.582,0,1,0,2.582,2.582A2.585,2.585,0,0,0,13.053,9.971Z" transform="translate(0.697 0.697)" fill="#fff"/>
+    <rect id="Retângulo_4996" data-name="Retângulo 4996" width="2.295" height="2.295" rx="1" transform="translate(17.256 9.744) rotate(-90)" fill="#fff"/>
+    <path id="Retângulo_4997" data-name="Retângulo 4997" d="M1.148,0A1.148,1.148,0,1,1,0,1.148,1.149,1.149,0,0,1,1.148,0Z" transform="translate(17.256 9.744) rotate(-90)" fill="#fff"/>
+  </g>
+</svg>
