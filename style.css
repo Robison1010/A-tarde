@@ -12,6 +12,7 @@
     font-display: swap;
 }
 
+/*
  @font-face {
     font-family: "Merriweather";
     src: url("assets/fontes/merriweather/merriweather-v33-latin-regular.woff2") format("woff2");
@@ -19,6 +20,7 @@
     font-style: normal;
     font-display: swap;
 }
+*/
 
  @font-face {
     font-family: "Merriweather";
@@ -36,6 +38,7 @@
     font-display: swap;
 }
 
+/*
  @font-face {
     font-family: "Merriweather";
     src: url("assets/fontes/merriweather/merriweather-v33-latin-700.woff2") format("woff2");
@@ -43,6 +46,7 @@
     font-style: normal;
     font-display: swap;
 }
+*/
 
 
 
